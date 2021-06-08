@@ -1,5 +1,7 @@
 tweet collector is a program with a data pippeline that collect tweets and stores them in a database. Next, the sentiment of tweets is analyzed and the annotated tweets are stored in a second database. Finally, the best or worst sentiment for a given is published on Slack.
 
+(was uploaded to an AWS server for a while)
+
 tweet_collector.py :
  - scrapes tweets from twitter 
  - upload data into mongo db
